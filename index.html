@@ -166,7 +166,7 @@
 
     <!--  WORK SECTION-->
     <div class="section-wrap" id="work">
-      <div class="jumbotron header">
+      <div class="jumbotron header" >
         <div class="container ">
           <div class="row">
             <div class="col-md-12">
@@ -240,10 +240,13 @@
     </div>
 
     <!--  FAQ SECTION-->
-    <div class="section-wrap" id="faq">
+    <div class="container" >
+        
+    <div class="section-wrap" id="faq" data-stellar-background-ratio="0.8" data-stellar-horizontal-offset="40"
+     data-stellar-vertical-offset="150">
       <div class="jumbotron header">
         <div class="container ">
-          <div class="row">
+          <div class="row ">
             <div class="col-md-12">
               <h1>FAQ</h1>
               <p>These are some of the questions that I get asked frequently, but if you have any other doubt just let me know!</p>
@@ -252,7 +255,7 @@
         </div>
       </div>
       <!-- end header -->
-      <div class="container">
+      <div class="container ">
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -263,7 +266,7 @@
               </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in">
-              <div class="panel-body">
+              <div class="panel-body ">
                 I remember using my first computer when I was 14 years old, back to the windows 3.0 days. It's been 12 years after that and ever since then I've thought of computers as one the best tools that we can have. Later in my life when I was deciding what career
                 to choose I realized that I really enjoyed working with computers and I wanted to learn how to program them based on people's needs so their life could become easier. That's why I studied computer information system engineering.
               </div>
@@ -366,6 +369,7 @@
         </div>
       </div>
 
+
       <div class="container">
         <div class="row">
           <div class="col-md-12 main-text">
@@ -382,6 +386,35 @@
         <!--   end row -->
       </div>
       <!--   end container -->
+    </div>
+    <!-- start of modal -->
+    <div class="container">
+       <div class="row">
+        <h2 class="learn_more">Learn More</h2>
+        <div class="modal-button">
+          <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg" 
+            title="Opens a modal window">
+            Curriculum
+          </button>
+        </div>
+        <!-- Large modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" 
+            aria-labelledby=" myLargeModalLabel"
+           aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">CV</h4>
+              </div>
+              <div class="modal-body">
+                <embed id="modalembed" src="vo thi quynh yen's Resume.pdf">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="section-wraper" id="contact">
@@ -447,6 +480,7 @@
         </div> <!-- jumbotron contact-section -->
         
     </div> <!-- end of class="section-wraper" id="contact"> -->
+    </div> <!-- end of class="history> -->
     
     <footer class="footer">
         <div class="row">
@@ -460,7 +494,7 @@
           </div>
           <div class="col-md-4 text-center" id="twitter">
             <p>
-            <a href="https://twitter.com/vothiquynhyen" class="twitter-follow-button btn btn-primary" data-show-count="false">Follow Me @vothiquynhyen</a>
+            <a href="https://twitter.com/vothiquynhyen" class="twitter-follow-button btn btn-primary" data-show-count="false">Follow @vothiquynhyen</a>
             </p>
           </div>
         </div>
@@ -476,6 +510,7 @@
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
     <!-- Can place script tags with JavaScript files here -->
     <script type="text/javascript">
       var $root = $('html, body');
@@ -488,6 +523,8 @@
         });
         return false;
       });
+      $('.jumbotron').stellar();
+
     </script>
   </body>
 

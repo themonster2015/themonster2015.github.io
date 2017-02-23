@@ -10,6 +10,7 @@ body {
 }
 .section-wrap {
   padding-top: 50px;
+
 }
 
 /********************/
@@ -159,6 +160,7 @@ footer p {
   text-align: center;
   overflow: scroll;
   padding-top: 60px;
+  color: white;
 }
 .contact-section .avatar {
   width: 80%;
@@ -314,3 +316,32 @@ h1, h2, h3 {
   font-size: 4em;
   text-shadow: -1px -1px 15px rgba(0, 0, 0, 1);
 }
+.form-control {
+
+}
+.learn_more{
+  float: left;
+  padding-left:15px;
+  margin-bottom: 5%;
+}
+
+.modal-button {
+  float: right;
+  padding-right: 40px;
+}
+/***Embed***/
+
+#modalembed {
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+.modal-dialog{
+  margin-top: 5%;
+  width: 80%;
+}
+/*.history {
+  background-image: url(../img/cool.jpg);
+
+}*/
