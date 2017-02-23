@@ -391,11 +391,12 @@
             <div class="col-md-6">
               <div class="avatar">
                 <img src="img/me.png" alt="Developer Avatar">
-              </div>
+              </div> 
               <h2 class="title">Jen Vo, Web Developer</h2>
               <p><strong>Hey!</strong> Do you need help with a small project? Do you need need help with a giant project!? Or maybe you are learning web development and you have a question. <strong>Don't hesitate</strong> to reach me out. I'm here to help
                 you.</p>
-            </div>
+            </div> <!-- end of col md 6 -->
+
             <div class="col-md-6 contact-info">
               <h1>Contact Info</h1>
               <p>You can email me, call me, or if you simply want to keep up to date with my most recent work, you can follow me through my social channels.</p>
@@ -403,21 +404,49 @@
               <strong>qvothi@gmail.com</strong>
               <span class="glyphicon glyphicon-earphone"></span>
               <strong>(651) 364-755</strong>
-              <div class="social">
-                <div class="button"><a href="#">Twitter</a></div>
-                <div class="button"><a href="#">Linkedin</a></div>
-              </div>
+               <h3>Write me</h3>
+              <div id="form_div">
+              <form id="contact">
+                <div class="form-group">
+                  <label for="name">Your name</label>
+                  <input type="text" name="full_name" id="name" class="form-control"
+                         placeholder="Enter your name" title="name">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Your phone</label>
+                  <input type="number" name="phone_number" class="form-control" id="phone"
+                         placeholder="phone" title="phone" min="10">
+                </div>
+                <div class="form-group">
+                  <label for="email">Your email*</label>
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email adress"
+                         title="email" required="required">
+                </div>
+                <div class="form-group">
 
-            </div>
+                  <label for="message">Your message*</label>
+                    <textarea id="message" name="message" style="resize:none" cols="40" rows="5" class="form-control"
+                              placeholder="Send me a message" required="required" title="message"></textarea>
+                    
+                    </div>
+                <button id="button_contact" type="submit" class="btn btn-success">Submit</button>
+              </form>
+            </div><!--end form_div-->
 
-          </div>
-        </div>
-        <div class="video">
+            </div> <!-- end of col md 6 contaact info -->
+            <div class="row">
+            <div class="video">
       <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/RiMxwutugwU" frameborder="0" allowfullscreen></iframe>
-    </div>
-      </div>
+      
+       </div>
+       </div>
 
-    </div>
+            </div> <!-- row -->
+
+          </div> <!-- container -->
+        </div> <!-- jumbotron contact-section -->
+        
+    </div> <!-- end of class="section-wraper" id="contact"> -->
     
     <footer class="footer">
         <div class="row">

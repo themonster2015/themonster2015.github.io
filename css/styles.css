@@ -172,7 +172,8 @@ footer p {
 .contact-info {
   border: 5px solid;
   border-radius: 5%;
-  height: 75vh;
+  padding: 10px;
+  /*height: 95vh;*/
   padding: 50px;
 }
 .contact-info strong {
@@ -182,6 +183,10 @@ footer p {
 }
 .contact-info a:hover {
   text-decoration: none;
+}
+.contact-info .video {
+  margin: 20px;
+  padding: 20px;
 }
 .contact-info .glyphicon {
   font-size: 3em;
