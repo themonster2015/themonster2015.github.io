@@ -137,7 +137,7 @@
             </div>
             <h2>Course Goals</h2>
             <p>My goal is to improve my technical skills, and get hired as an web developer. I would like to star my own business someday.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="This is my tooltip">View details &raquo;</button></p>
           </div>
           <!-- /col -->
           <div class="col-md-4 col-sm-6 col-xs-6">
@@ -145,7 +145,7 @@
             </div>
             <h2>Portfolio Concept</h2>
             <p>I have experience with the fundamentals of web development. I would like to show my passion for clean code, and elegant styling. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Thhis is my second tooltip. Have fun looking at my amazing site">View details &raquo;</button></p>
           </div>
           <!-- /col -->
           <div class="col-md-4 col-sm-6 col-xs-6">
@@ -524,7 +524,10 @@
         return false;
       });
       $('.jumbotron').stellar();
-
+      // tooltips
+        $(function () {
+         $('[data-toggle="tooltip"]').tooltip();
+        });
     </script>
   </body>
 
