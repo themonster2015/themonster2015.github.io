@@ -462,6 +462,10 @@
                               placeholder="Send me a message" required="required" title="message"></textarea>
                     
                     </div>
+                    
+                    
+                    <p id="visible-comment"></p>
+
                 <button id="button_contact" type="submit" class="btn btn-success">Submit</button>
               </form>
             </div><!--end form_div-->
@@ -511,24 +515,9 @@
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
      <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/scripts.js"></script>
     <!-- Can place script tags with JavaScript files here -->
-    <script type="text/javascript">
-      var $root = $('html, body');
-      $('.navbar-nav a').click(function() {
-        var href = $.attr(this, 'href');
-        $root.animate({
-          scrollTop: $(href).offset().top
-        }, 500, function() {
-          window.location.hash = href;
-        });
-        return false;
-      });
-      $('.jumbotron').stellar();
-      // tooltips
-        $(function () {
-         $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
+    
   </body>
 
 </html>

@@ -319,6 +319,9 @@ h1, h2, h3 {
 .form-control {
 
 }
+#visible-comment {
+  display: none;
+}
 .learn_more{
   float: left;
   padding-left:15px;
