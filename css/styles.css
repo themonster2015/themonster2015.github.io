@@ -319,7 +319,7 @@ h1, h2, h3 {
 .form-control {
 
 }
-#visible-comment {
+#visible-comment, #displayparent, #char-count {
   display: none;
 }
 .learn_more{

@@ -23,12 +23,32 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
   $("#message").css("background-color", "pink");
   $("#button_contact").on("click", function() {
-    var comment = $('#message').val();
+    event.preventDefault();
+    var comment = $("#message").val();
     console.log(comment);
+    $('#visible-comment').show();
     $('#visible-comment').html(comment);
     $('#message').hide();
 
     });
+  });
+  $("#message").on("keyup", function(){
+     console.log("keyup happened");
+     var charCount = $("#message").val().length;
+     var comment = $("#message").val();
+     
+     $('#displayparent').show();
+     $('#visible-comment').show();
+    $('#visible-comment').html(comment);
+     console.log(charCount);
+     $('#char-count').show();
+     $('#char-count').html(charCount);
+     if(charCount > 50) {
+      $("#char-count").css("color", "red");
+    } else {
+           $("#char-count").css("color", "white");
+         }
+  
     return false;
   });
   });
