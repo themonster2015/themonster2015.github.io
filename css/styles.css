@@ -109,7 +109,7 @@ body {
   background-color: #fbae20;
   color: #fff;
   border-radius: 5px;
-  height: 27.6vh;
+  height: 34vh;
   padding: 5%;
 }
 #skill-list {
@@ -130,7 +130,9 @@ body {
         padding: 10px;
         margin: 10px;
        }
-
+.video {
+  margin: 10px;
+}
 /*/*FOOTER SECTION*/
 
 /*footer {
@@ -176,13 +178,27 @@ footer p {
 
 @media (max-width: 1000px) {
   .footer {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
   }
 
   #copyright,
   #twitter {
     text-align: center;
   }
+  .contact-info {
+    margin: 50px;
+  }
+ 
+  #map {
+        
+        width: 90%;
+        
+        
+       }
+.video {
+  margin: 10px;
+  
+}
 }
 
 /*Contact Section*/
@@ -219,8 +235,8 @@ footer p {
   text-decoration: none;
 }
 .contact-info .video {
-  margin: 20px;
-  padding: 20px;
+  /*margin: 20px;
+  padding: 20px;*/
 }
 .contact-info .glyphicon {
   font-size: 3em;
