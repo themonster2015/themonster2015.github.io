@@ -126,9 +126,9 @@ body {
 
 #map {
         height: 400px;
-        width: 100%;
-        padding: 10px;
-        margin: 10px;
+        width: 90%;
+        /*padding: 10px;
+        margin: 10px;*/
        }
 .video {
   margin: 10px;
@@ -192,7 +192,7 @@ footer p {
   #map {
         
         width: 90%;
-        
+        padding-left: 20px;
         
        }
 .video {
@@ -206,7 +206,8 @@ footer p {
 .contact-section {
   margin-bottom: 0px;
   text-align: center;
-  overflow: scroll;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 60px;
   color: white;
 }
