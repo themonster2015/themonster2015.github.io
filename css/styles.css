@@ -367,8 +367,9 @@ h1, h2, h3 {
   font-size: 4em;
   text-shadow: -1px -1px 15px rgba(0, 0, 0, 1);
 }
-.form-control {
 
+.carousal {
+  align-self: center;
 }
 #visible-comment, #displayparent, #char-count {
   display: none;

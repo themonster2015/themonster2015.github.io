@@ -8,10 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Jen Vo</title>
+    <title>Yen Vo</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
 
     <!-- google font raleway -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700' rel='stylesheet' type='text/css'>
@@ -46,7 +47,7 @@
             <span class="icon-bar"></span>
           </button>
           <div class="projectName navbar-brand">
-            <a href="#">Amazing Jen Vo</a>
+            <a href="#">Amazing Yen Vo</a>
           </div>
           <!--end project Name-->
         </div>
@@ -99,10 +100,10 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="http://cdn.skilledup.com/wp-content/uploads/2014/10/Web-Design-Vs-Web-Development-Feature_1290x688_KL.jpg" alt="developer desk">
+              <img src="https://cdn.mos.cms.futurecdn.net/92keBiQNU4EtZemm4wfw8h-1200-80.jpg" alt="developer desk" class="img-fluid carousal  mx-auto d-block">
 
               <div class="carousel-caption">
-                <h1>Jen Vo, Web Developer</h1>
+                <h1>Yen Vo, Web Developer</h1>
                 <p>I am a <strong>professional</strong> and creative Web Developer involved with latest web design trends and technologies best practices. Coding is my passion, and creating solutions is my profession.</p>
               </div>
             </div>
@@ -172,7 +173,7 @@
 
 
     <!--  WORK SECTION-->
-    <div class="container" >
+    <div class="container" id="work" >
     <!-- <div class="section-wrap" id="workheader"> -->
       <div class="jumbotron header" >
           <div class="row">
@@ -182,7 +183,76 @@
             </div>
           </div>
         </div>
+        <div >
+          <!-- 
+            carousel
+           -->
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+        
+              <div class="item active">
+                <a href="https://github.com/themonster2015/vacations-booking-front-end"><img src="img/work1.jpg" alt="Los Angeles" style="width:100%;"></a> 
+                <div class="carousel-caption">
+                  <h3>Vacation Reservation Web App</h3>
+                  <p>Vacation Booking App is an online booking app that allows users to see destinations, 
+                    reserve a destination,view all their reservations. Registered users are able 
+                    to view a list of destinations they booked. Only admin users are allowed to add
+                     and delete destinations.</p>
+                  <p><em class="text-danger h3">Built with React, Redux, & Ruby on Rails</em></p>
+
+                </div>
+              </div>
+        
+              <div class="item">
+                <a href="https://github.com/themonster2015/React-Capstone"><img src="img/work2.jpg" alt="Chicago" style="width:100%;"></a>
+                <div class="carousel-caption">
+                  <h3>Covid Metrics Webapp for Spain </h3>
+                  <p>TThis is a single page application (SPA) 
+                    that shows current covid stats for Spain. 
+                    It consumes the Narrativa API. Users can use
+                     the filters to see regions with no new cases or 
+                     regions with the highest number of cases for the day.</p>
+                     <p><em class="text-danger h3">Built with React</em></p>
+                </div>
+              </div>
+            
+              <div class="item">
+               <a href="https://github.com/themonster2015/fb-replica"><img src="img/work3.jpg" alt="New York" style="width:100%;"></a> 
+                <div class="carousel-caption">
+                  <h3>FaceBooker Social Network</h3>
+                  <p>A social web app that replicates Facebook features.</p>
+                  <p><em class="text-danger h3">Built with Ruby on Rails</em></p>
+
+                </div>
+              </div>
+          
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!--
+            end carousel
+           -->
+        </div>
       </div>
+
+     
       <!-- end header -->
       <!-- <div class="container-fluid">
         <div class="row">
@@ -245,10 +315,7 @@
         </div>
       </div>
     </div> -->
-    <div class="container">
-      <div class="row" id="work">
-      </div><!-- / row -->
-    </div><!-- / container -->
+   
 
     <!--  FAQ SECTION-->
     <div class="container" >
@@ -372,7 +439,7 @@
                 <li>Responsive Design</li>
                 <li>Version Control</li>
                 <li>Test Driven Development</li>
-                <li>HTML, CSS, JavaScript, Ruby, SQL, Swift</li>
+                <li>React, JavaScript, Ruby on Rails, MySQL, Bootstrap, CSS</li>
               </ul>
             </div>
             <!-- end skills section -->
@@ -385,10 +452,8 @@
         <div class="row">
           <div class="col-md-12 main-text">
             <h2>My Story</h2>
-            <p>My name is Jen Vo, and this is my first project createad during the frontend section of careersfoundry's web development course. I'm a Web Developer with experience in different programming languages inclunding desktop and mobile oriented.</p>
-            <p>
-              I studied information system engineering focused on desktop application. This is how I learned to always have a "programmer" mindset. I discovered that most problems have a logical solution, and a logical series of steps to solve it. </p>
-            <p>As a web designer and developer, my objective is to make a positive impact on clients, co-workers, and the internet using my skills and experience to design compellin, useful and attractive websites. I enjoy working with teams or by myself
+            <p>My name is Yen Vo, and I'm a Full-stack Web Developer</p>
+            <p>As a web developer, my objective is to make a positive impact on clients, co-workers, and the internet using my skills and experience to design compellin, useful and attractive websites. I enjoy working with teams or by myself
               on projects that involve a mix of web and graphic design, web development, database management or any other kind of challenging yet fun enviroment. When it's necessary to keep up with new technologies or even learn something from scratch
               I'm always eager to do it. I believe that every problem has a great solution, and that it's never to late to learn something new!</p>
           </div>
@@ -420,7 +485,7 @@
                 <h4 class="modal-title" id="myModalLabel">CV</h4>
               </div>
               <div class="modal-body">
-                <embed id="modalembed" src="jenResume.pdf">
+                <embed id="modalembed" src="resume.pdf">
               </div>
             </div>
           </div>
@@ -434,9 +499,9 @@
           <div class="row">
             <div class="col-md-6">
               <div class="avatar">
-                <img src="img/me.png" alt="Developer Avatar">
+                <img src="img/me.jpeg" alt="Developer Avatar">
               </div> 
-              <h2 class="title">Jen Vo, Web Developer</h2>
+              <h2 class="title">Yen Vo, Web Developer</h2>
               <p><strong>Hey!</strong> Do you need help with a small project? Do you need need help with a giant project!? Or maybe you are learning web development and you have a question. <strong>Don't hesitate</strong> to reach me out. I'm here to help
                 you.</p>
                 <div id="map" ></div>
@@ -518,7 +583,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center" id="copyright">
-            &copy; Jen Vo 2016
+            &copy; Yen Vo 2021
           </div>
           <div class="col-md-4 text-center" id="facebook">
             
@@ -545,7 +610,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
      <script src="js/jquery.stellar.min.js"></script>
      <script src="js/scripts.js"></script>
-     <script src="js/work.js"></script>
+     <!-- <script src="js/work.js"></script> -->
      <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKYFCD1MJTpdVim6GFI9mtBYSGQ0zyP8Q&callback=initMap">
     </script>

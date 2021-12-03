@@ -1,7 +1,7 @@
 var works = [
     {
-    title: "First Project",
-    pic: "img/1.jpeg"
+    title: "Vacation Booking React App",
+    pic: "img/work1.png"
   },
   {
     title: "Second Project",
@@ -39,8 +39,8 @@ var works = [
  for(var i = 0; i < works.length; ++i ) {
   $("#work").append("\
   <div class='col-sm-3 col-md-3'>\
-    <a href='#work' class='work-img' ><img class='img-responsive' src='" + works[i].pic + "'>\
-  <span class='info'><p class='proj-title'>Title:</p>" + works[i].title  + "</span></a>\
+    <a href='https://github.com/danmainah/vacations-booking-front-end' class='work-img' ><img class='img-responsive' src='" + works[i].pic + "'>\
+  <span class='info'><p class='proj-title'>React:</p>" + works[i].title  + "</span></a>\
     </a>\
   </div>\
 ");
